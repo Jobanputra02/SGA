@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta name="author" content="Chaitanya Jobanputra">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Sargam Guitar Academy</title>
+    <link rel="icon" href="images/logo_icon.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
+    <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="plugins/animate-css/animate.css">
+    <link rel="stylesheet" href="plugins/magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="plugins/slick/slick.css">
+    <link href="fontawesome/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body id="body">
+    <header class="navigation">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <nav class="navbar">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="index.html">
+                    <img height="75px" src="images/logo.png" alt="Logo">
+                  </a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right">
+                    <li>
+                      <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                      <a href="about.html">About</a>
+                    </li>
+                    <li>
+                      <a href="media.html">Media</a>
+                    </li>
+                    <li>
+                      <a href="accomplishments.html">Accomplishments</a>
+                    </li>
+                    <li>
+                      <a href="events.html">Events</a>
+                    </li>
+                    <li>
+                      <a href="contact.html">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="page-title bg-2-contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="block">
+              <h1 class="animated fadeInUp">Drop Us A Note</h1>
+              <p class="animated fadeInUp">You can drop us a message or you can contact us directly via number or email.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact-form">
+      <div class="container">
+        <div class="row">
+          <form action="sendmail.php" method="post" id="contact-form">
+            <div class="col-md-6 col-sm-12">
+              <div class="block">
+                <div class="form-group">
+                  <input name="user_name" type="text" class="form-control" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                  <input name="user_email" type="text" class="form-control" placeholder="Email Address">
+                </div>
+                <div class="form-group">
+                  <input name="user_subject" type="text" class="form-control" placeholder="Subject">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <div class="block">
+                <div class="form-group-2">
+                  <textarea name="user_message" class="form-control" rows="4" placeholder="Your Message"></textarea>
+                </div>
+                <button class="btn btn-default" type="submit">Send Message</button>
+              </div>
+            </div>
+            <div class="error" id="error">Sorry Message does not sent</div>
+            <div class="success" id="success">Message Sent</div>
+          </form>
+        </div>
+        <div class="contact-box row">
+          <div class="col-md-6 col-sm-12">
+            <div class="block">
+              <h2>Stop By For a Visit</h2>
+              <ul class="address-block">
+                <li>
+                  <i class="fa fa-map-marker-alt"></i>Geet Gujri Society, Airport Road, Rajkot
+                </li>
+                <li>
+                  <i class="fa fa-envelope"></i>Email : sargamguitar2011@gmail.com
+                </li>
+                <li>
+                  <i class="fa fa-phone-alt"></i>Phone : +91 91066 49953
+                </li>
+              </ul>
+              <ul class="social-icons">
+                <li>
+                  <a href="https://www.youtube.com/channel/UCgHDcqUas87yQbV0Ld_ovHg" target="_blank">
+                    <i class="fab fa-youtube"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/sargam_guitar/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+                <a href="https://www.facebook.com/sargamguitarr" target="_blank">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <br>
+                <br>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="block">
+              <div class="google-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26885.49883241899!2d70.77476000303692!3d22.30021966155466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xec354b0e868614c9!2sSargam%20Guitar%20Academy!5e0!3m2!1sen!2sin!4v1642661464036!5m2!1sen!2sin" style="border:0;"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="plugins/jQuery/jquery.min.js"></script>
+    <script src="plugins/bootstrap/bootstrap.min.js"></script>
+    <script src="plugins/slick/slick.min.js"></script>
+    <script src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="plugins/shuffle/shuffle.min.js"></script>
+    <script src="plugins/SyoTimer/jquery.syotimer.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
